@@ -68,3 +68,6 @@ python generateCSV.py
 Сгенерированный CSV файл импортируется в draw.io через Положение -> Добавить -> Расширенные -> CSV
 
 Открываем файл любым редактором, например notepad++ cкопируем содержимое и вставляем в окно draw.io
+
+![This is an alt text.](https://github.com/sk0morokh/csv-to-uml-drawio-converter/blob/main/generateCSVexmaple/generatedCSV.png  "Example DrawIo")
+
