@@ -1,0 +1,78 @@
+{
+  "default_column_order": [
+    "Сервисы",
+    "Топики чтения",
+    "Топики записи",
+    "БД чтения",
+    "БД записи",
+    "Папки чтения",
+    "Папки записи",
+    "API запрос",
+    "API вызов",
+    "Ссылки на сервисы"
+  ],
+  "default_size_parameters": {
+    "nodespacing": 25,
+    "levelspacing": 100,
+    "edgespacing": 50,
+    "width": "auto",
+    "height": "auto",
+    "padding": 50
+  },
+  "default_color_parameters": {
+    "topic": {
+      "fill_color": "#d5e8d4",
+      "stroke_color": "#82b366",
+      "shape": "ellipse"
+    },
+    "db": {
+      "fill_color": "#ffe6cc",
+      "stroke_color": "#ff8c00",
+      "shape": "database"
+    },
+    "folder": {
+      "fill_color": "#d5e8d4",
+      "stroke_color": "#82b366",
+      "shape": "folder"
+    },
+    "service": {
+      "fill_color": "#dae8fc",
+      "stroke_color": "#6c8ebf",
+      "shape": "hexagon"
+    },
+    "api": {
+      "fill_color": "#FFC0CB",
+      "stroke_color": "#000000",
+      "shape": "square"
+    }
+  },
+  "shape_options": [
+    "ellipse",
+    "rectangle",
+    "hexagon",
+    "database",
+    "folder",
+    "circle",
+    "umlActor",
+    "parallelogram",
+    "square"
+  ],
+  "default_connection_colors": {
+    "refs": {
+      "color": "#000000",
+      "dashed": "0"
+    },
+    "includes":{
+      "color": "#864646",
+      "dashed": "1"
+    },
+    "extends": {
+      "color": "#0000FF",
+      "dashed": "0"
+    }
+},
+  "dashed_options": {
+    "1": "Пунктирная линия",
+    "0": "Сплошная линия"
+  }
+}
