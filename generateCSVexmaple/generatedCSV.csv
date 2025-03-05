@@ -1,0 +1,44 @@
+## Habit Tracker UML use case diagram
+# label: %action%
+# style: shape=%shape%;rounded=1;fillColor=%fill%;strokeColor=%stroke%;hyperlink=%action%;
+# connect: {"from":"refs", "to":"id", "style":"curved=0;endArrow=blockThin;endFill=1;dashed=0;strokeColor=#000000;"}
+# connect: {"from":"includes", "to":"id", "style":"curved=0;endArrow=blockThin;endFill=1;dashed=1;strokeColor=#864646;"}
+# connect: {"from":"extends", "to":"id", "style":"curved=0;endArrow=blockThin;endFill=1;dashed=0;strokeColor=#0000FF;"}
+# width: auto
+# height: auto
+# padding: 50
+# nodespacing: 25
+# levelspacing: 100
+# edgespacing: 50
+# link: url
+# layout: horizontalflow
+## CSV data starts below this line
+id,action,fill,stroke,shape,includes,extends,refs,url
+6,Топик записи 1,#d5e8d4,#82b366,ellipse,,,
+7,Топик записи 3,#d5e8d4,#82b366,ellipse,,,
+8,Топик чтения 1,#d5e8d4,#82b366,ellipse,"2,1",,
+9,Топик чтения 3,#d5e8d4,#82b366,ellipse,"3",,
+10,Топик чтения 4,#d5e8d4,#82b366,ellipse,"4",,
+11,БД записи 1,#ffe6cc,#ff8c00,database,,,
+12,БД записи 2,#ffe6cc,#ff8c00,database,,,
+13,БД записи 3,#ffe6cc,#ff8c00,database,,,
+14,БД чтения 1,#ffe6cc,#ff8c00,database,"1",,
+15,БД чтения 2,#ffe6cc,#ff8c00,database,"1,2",,
+16,БД чтения 3,#ffe6cc,#ff8c00,database,"3",,
+17,ПАПКА записи 1,#d5e8d4,#82b366,folder,,,
+18,ПАПКА записи 2,#d5e8d4,#82b366,folder,,,
+19,ПАПКА записи 3,#d5e8d4,#82b366,folder,,,
+20,ПАПКА чтения 1,#d5e8d4,#82b366,folder,"1",,
+21,ПАПКА чтения 2,#d5e8d4,#82b366,folder,"1,2",,
+22,ПАПКА чтения 3,#d5e8d4,#82b366,folder,"3",,
+23,API вызов 1,#FFC0CB,#000000,square,,,
+24,API вызов 2,#FFC0CB,#000000,square,,,
+25,API вызов 3,#FFC0CB,#000000,square,,,
+26,API вызов 4,#FFC0CB,#000000,square,,,
+27,API запрос 1,#FFC0CB,#000000,square,"1,4",,
+28,API запрос 2,#FFC0CB,#000000,square,"2,3",,
+1,МС 1,#dae8fc,#6c8ebf,hexagon,,"6,11,12,17,18,23",,https://yandex.ru/internet
+2,МС 2,#dae8fc,#6c8ebf,hexagon,,"6,12,20,24",,https://yandex.ru/internet
+3,МС 3,#dae8fc,#6c8ebf,hexagon,,"7,13,19,25",,https://yandex.ru/internet
+4,МС 4,#dae8fc,#6c8ebf,hexagon,,"26",,
+5,МС 5,#dae8fc,#6c8ebf,hexagon,,,,
